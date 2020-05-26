@@ -1,0 +1,27 @@
+{
+  "name": "local-time",
+  "version": "1.0.0",
+  "description": "Simple demo of web-component : we are creating custom element to local millisecond time in local timezone",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/supervisor -k -e html -i .git/,node_modules/ -- app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pravanjan/local-time.git"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pravanjan/local-time/issues"
+  },
+  "homepage": "https://github.com/pravanjan/local-time#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "body-parser": "1.19.0",
+    "reload": "3.0.4",
+    "supervisor": "0.12.0"
+  }
+}
