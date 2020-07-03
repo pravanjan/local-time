@@ -15,3 +15,5 @@ class Localtime extends HTMLElement{
 }
 
 window.customElements.define('local-time',Localtime);
+
+export default Localtime;
