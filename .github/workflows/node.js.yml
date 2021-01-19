@@ -14,5 +14,5 @@ jobs:
      - name: ZAP Scan
        uses: zaproxy/action-baseline@v0.4.0
        with:
-        target: 'https://www.zaproxy.org'
+        target: 'https://integrationtest.anywhereworks.com/'
    
