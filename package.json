@@ -1,8 +1,8 @@
 {
   "name": "@pravanjan/local-time",
-  "version": "1.0.2",
-  "description": "Simple demo of web-component : we are creating custom element to local millisecond time in local timezone",
-  "main": "index.js",
+  "version": "1.0.7",
+  "description": "Simple demo of web-component we are creating custom element to local millisecond time in local timezone",
+  "main": "public/bundle.js",
   "scripts": {
     "dev": "webpack --mode=development",
     "build": "webpack --mode=production",
